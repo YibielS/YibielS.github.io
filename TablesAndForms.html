@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang=“en”>
+	<head>
+	<title> Tables and Forms </title>
+	</head>
+	<body>
+		<h1>Pizza Ordering Form</h1>
+  		<form>
+			<h2> Contact Information </h2>
+				<label for=“name”>Name:</label>
+				<input type=“text” name=“name” id=“name” required>
+				<br>
+				<label for=“phone”>Phone:</label>
+				<input type=“phone” name=“phone” id=“phone” required>
+				<br>
+				<label for=“email”>Email:</label>
+				<input type=“email” name=“email” id=“email” required>
+				<br>
+			<h2> Select Pizza Size </h2>
+				<label for=“size” >Select size:</label>
+				<select name="size" id="size" required>
+					<Option> Medium </Option>
+					<Option> Large </Option>
+					<Option> XLarge </Option> <br>
+				</select>
+			<h2> Select Sauce </h2>
+				<input type="radio" name="sauce" required> <label> Marinara </label><br>
+				<input type="radio" name="sauce" required> <label> Ranch </label><br>
+				<input type="radio" name="sauce" required> <label> No Sauce </label><br>
+			<h2> Select Toppings </h2>
+				<input type="checkbox"> <label> Pepperoni </label> <input type="checkbox"> <label> Sausage </label> <br>
+				<input type="checkbox"> <label> Mushroom </label> <input type="checkbox"> <label> Pineapple </label> <br>
+				<input type="checkbox"> <label> Peppers </label> <input type="checkbox"> <label> Onions </label> <br>
+			<h2> Additional Instructions </h2>
+				<textarea name="comments" >Add Instructions</textarea> <br>
+				<input type="submit" value="Submit!">
+		</form>
+
+		<p>List of My Favorite Games</p>
+		<table border="1"> 
+			<caption> List of favorite games </caption>
+			<thead>
+				<tr>
+					<th>Developer</th>
+					<th>Title</th>
+					<th>Year</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="3">Paradox Interactive</td>
+					<td> Europa Universalis IV & 5</td>
+					<td> 2013</td>
+				</tr>
+				<tr>
+					<td> Cities Skylines </td>
+					<td> 2015 </td>
+				</tr>
+				<tr>
+					<td> Stellaris </td>
+					<td> 2016 </td>
+				</tr>
+				<tr>
+					<td> Mojang </td>
+					<td> Minecraft </td>
+					<td> 2011 </td>
+				</tr>
+				<tr>
+					<td>EA</td>
+					<td> Battlefield 1</td>
+					<td> 2016</td>
+				</tr>
+				<tr>
+					<td colspan="3">Count: 5</td>
+				</tr>
+					
+			</tbody>
+		</table>
+	</body>
+
+
+	
+	
