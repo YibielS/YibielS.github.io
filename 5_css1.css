@@ -3,18 +3,25 @@ background-color: lightblue;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 96px;
   font-weight: bold;
   text-align: center;
 }
 h2 {
-  font-size: 18px;
+  font-size: 38px;
   font-weight: bold;
   text-align: left;
 }
 
-paragraph2 {
+#paragraph2 {
   background-color: white;
   border: 3px solid green;
+  text-align: center;
+  margin: 5px;
+}
+  
+.blue{
+  background-color: blue;
+  color:white;
 }
 
