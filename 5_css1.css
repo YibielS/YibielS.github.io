@@ -32,6 +32,10 @@ h2 {
 .blue{
   background-color: blue;
   color:white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 ol li::marker {
