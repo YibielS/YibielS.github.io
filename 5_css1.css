@@ -39,8 +39,8 @@ h2 {
 }
 
 ol li::marker {
-font-size: 24px; 
-content: counter(num, decimal-leading-zero);
+font-size: 20px; 
+content: counter(num, decimal-leading-zero) ". ";
 }
 
 a[href="http://www.w3schools.com"] { 
