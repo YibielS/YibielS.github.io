@@ -34,7 +34,7 @@ h2 {
 
 ol li::marker {
 font-size: 24px; 
-font-weight: bold;
+content: counter(num, decimal-leading-zero);
 }
 
 a[href="http://www.w3schools.com"] { 
@@ -61,8 +61,5 @@ ol {
 ol li { 
   counter-increment: num; 
 } 
-ol li::marker { 
-  content: counter(num, decimal-leading-zero);
-}
 
   
