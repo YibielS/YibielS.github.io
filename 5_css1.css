@@ -55,5 +55,14 @@ th {
 tr{
     background-color: white;
 }
+ol { 
+  list-style: none; counter-reset: num; 
+} 
+ol li { 
+  counter-increment: num; 
+} 
+ol li::marker { 
+  content: counter(num, decimal-leading-zero);
+}
 
   
