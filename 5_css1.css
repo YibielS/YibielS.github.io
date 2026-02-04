@@ -37,4 +37,18 @@ font-size: 24px;
 font-weight: bold;
 }
 
+a[href="http://www.w3schools.com"] { 
+  color: orange; 
+}
 
+table {
+  border: 1px solid;
+  
+}
+
+th { 
+  background-color: grey;
+  font-weight: bold; 
+  text-align: center;
+}
+  
