@@ -109,6 +109,7 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justif-content: center;
+    padding-left: 20px;
     padding: 20px 0;
 }
 #container article {
