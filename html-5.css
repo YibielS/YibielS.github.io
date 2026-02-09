@@ -106,5 +106,17 @@ main {
     font-weight: bold;
 }
 
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justif-content: center;
+    padding: 20px 0;
+}
+#container article {
+    width: 300px;
+    box-sizing: border-box;
+}
+
     
 
