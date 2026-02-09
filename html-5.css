@@ -3,18 +3,25 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 200px;
+    width: 130px;
     color: black;
     background: orange;
     padding: 10px;
-    text-align: center;
-    font-size: 24px;
-    display: flex;
+    text-align: center;    display: flex;
 }
 
 
 #jumpMenu h2 {
     font-size: 36px;
+    text-align: center;
+}
+
+
+#jumpMenu a {
+  display: block;
+  color: #0b5fff;
+  margin: 8px 0;
+  font-size: 20px;
 }
 
 
