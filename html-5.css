@@ -96,9 +96,6 @@ main {
 
 #thanks {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-
     background: lightblue;
     border: 2px solid black;
     padding: 15px 20px;
