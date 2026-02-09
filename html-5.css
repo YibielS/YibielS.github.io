@@ -19,7 +19,6 @@
 
 #jumpMenu a {
   display: block;
-  color: #0b5fff;
   margin: 8px 0;
   font-size: 20px;
 }
@@ -39,7 +38,6 @@ main > header {
   background: red;
   color: black;
   box-sizing: border-box;
-  z-index: 10; 
   display: flex;
   padding: 0 12px;
 }
@@ -68,4 +66,12 @@ main > header > nav {
   box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+    
 
