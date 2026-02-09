@@ -9,9 +9,56 @@
     padding: 10px;
     text-align: center;
     font-size: 24px;
+    display: flex;
 }
 
 
 #jumpMenu h2 {
     font-size: 36px;
 }
+
+
+body {
+  margin: 0;
+}
+
+
+main > header {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  height: 80px;
+  background: red;
+  color: black;
+  box-sizing: border-box;
+  z-index: 10; 
+  display: flex;
+  padding: 0 12px;
+}
+
+
+main > header > p {
+  margin: 0;
+  text-align: center;
+  font-size: 32px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+
+main > header > nav {
+  position: sticky;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+
