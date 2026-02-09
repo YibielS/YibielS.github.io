@@ -39,7 +39,7 @@ main > header {
     top: 0;
     left: 15%;
     right: 0;
-    height: 110px;
+    height: 240px;
     background: red;
     color: black;
     box-sizing: border-box;
@@ -52,7 +52,7 @@ main > header > p {
     margin: 0;
     text-align: center;
     font-size: 32px;
-    line-height: 60px;
+    line-height: 160px;
     font-weight: bold;
 }
 
@@ -62,7 +62,7 @@ main > header > nav {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 50px;
+    height: 80px;
     background: black;
   display: flex;
     justify-content: space-around;
