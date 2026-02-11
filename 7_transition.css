@@ -79,6 +79,9 @@ h1 {
     font-weight: bold;
     padding-top: 80px
 }
+body {
+  margin: 0;
+}
 
 #container {
     display: flex;
@@ -93,4 +96,14 @@ h1 {
     box-sizing: border-box;
 }
 
+#thanks {
+    position: fixed;
+    background: lightblue;
+    border: 2px solid black;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    right: 0px;
+    bottom: 0px;
+}
 
