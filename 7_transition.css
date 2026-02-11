@@ -5,7 +5,7 @@ article p:first-of-type::first-letter {
 }
 
 
-article a[href*="google."]::after {
+article a[href*="www.google.com"]::after {
   content: "";
   display: inline-block;
   width: 10px;
