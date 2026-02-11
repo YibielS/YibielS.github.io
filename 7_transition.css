@@ -1,1 +1,7 @@
+article p:first-of-type::first-letter {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+}
+
 
