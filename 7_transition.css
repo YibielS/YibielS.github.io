@@ -5,3 +5,37 @@ article p:first-of-type::first-letter {
 }
 
 
+article a[href*="google.com"]::after {
+  content: "";                   /* create the pseudo-element box */
+  display: inline-block;
+  background-image: url("arrow.png");
+}
+
+#menuItems {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    color: black;
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+main > header {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    right: 0;
+    height: 200px;
+    background: red;
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 12px;
+}
+
