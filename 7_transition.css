@@ -124,3 +124,33 @@ button:hover {
 }
 
 
+#jumpMenu {
+  display: none;
+}
+
+
+#recentArticles:hover {
+  display: none;
+}
+
+
+#recentArticles:hover + #jumpMenu {
+  display: block;
+}
+
+
+#jumpMenu:hover {
+  display: block;
+}
+
+
+#jumpMenu:hover + #recentArticles {
+  display: none;
+}
+
+
+
+
+
+
+
