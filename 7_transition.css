@@ -14,7 +14,7 @@ article a[href*="google.com"]::after {
 }
 
 
-h2, article p:first-of-type{
+article h2, article p:first-of-type{
     color: #D3D3D3;
     transition: color 2s;
 }
@@ -29,7 +29,7 @@ article:hover{
 }
 
 
-h2, article:hover p:first-of-type{
+article:hover h2, article:hover p:first-of-type{
     color: black;
 }
 
