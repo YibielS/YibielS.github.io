@@ -10,7 +10,7 @@ article a[href*="google.com"]::after {
   display: inline-block;
   width: 10px;
   height: 10px;
-  MARGIN-LEFT:3px;
+  margin-left:3px;
   background-image: url("arrow.png");
   vertical-align:-1px;
 }
@@ -128,28 +128,22 @@ button:hover {
 
 #jumpMenu {
   display: none;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
 }
 
 
-
-
-#recentArticles:hover + #jumpMenu {
+#menuItems:hover #jumpMenu {
   display: block;
 }
 
-
-#recentArticles:focus + #jumpMenu, #jumpMenu:focus-within {
+#menuItems:focus-within #jumpMenu {
   display: block;
 }
-
-
 
 #jumpMenu:hover {
-  display: block;
-}
-
-
-#recentArticles:hover + #jumpMenu, #jumpMenu:hover,#recentArticles:focus + #jumpMenu, #jumpMenu:focus-within {
   display: block;
 }
 
