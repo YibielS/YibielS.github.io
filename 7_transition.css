@@ -6,10 +6,30 @@ article p:first-of-type::first-letter {
 
 
 article a[href*="google.com"]::after {
-  content: "";                   /* create the pseudo-element box */
+  content: "";
   display: inline-block;
   background-image: url("arrow.png");
 }
+
+
+article p:first-of-type {
+    color: #777;
+    transition: color 2s;
+}
+
+article {
+  transition: transform 2s;
+}
+article:hover{
+  transform: scale(1.25);
+}
+
+
+article:hover p:first-of-type {
+    color: black;
+}
+
+
 
 #menuItems {
     position: fixed;
