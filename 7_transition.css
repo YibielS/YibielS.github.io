@@ -135,11 +135,7 @@ button:hover {
 }
 
 
-#menuItems:hover #jumpMenu {
-  display: block;
-}
-
-#menuItems:focus-within #jumpMenu {
+#recentArticles:hover + #jumpMenu {
   display: block;
 }
 
