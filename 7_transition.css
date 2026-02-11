@@ -12,6 +12,8 @@ article a[href*="www.google.com"]::after {
   height: 10px;
   margin-left:3px;
   background-image: url("arrow.png");
+  background-position: center;
+  background-size: 100% 100%;
   vertical-align:-1px;
 }
 
