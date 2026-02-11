@@ -139,6 +139,12 @@ button:hover {
 }
 
 
+#recentArticles:focus + #jumpMenu, #jumpMenu:focus-within {
+  display: block;
+}
+
+
+
 #jumpMenu:hover {
   display: block;
 }
@@ -153,14 +159,21 @@ button:hover {
   display: block;
   padding: 6px 10px;
   background-color: transparent;
-  transition: background-color 0.1s, color 0.1s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 
 #jumpMenu a:hover {
-  background-color: black;       /* highlight color */
-  color: white;                 /* text becomes white */
+  background-color: black;
+  color: white;
 }
+
+#recentArticles { 
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 
 
 
