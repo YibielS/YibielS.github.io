@@ -10,7 +10,9 @@ article a[href*="google.com"]::after {
   display: inline-block;
   width: 0.9em;
   height: 0.9em;
+  MARGIN-LEFT:0.35em;
   background-image: url("arrow.png");
+  vertical-align:-0.1em;
 }
 
 
@@ -129,9 +131,6 @@ button:hover {
 }
 
 
-#recentArticles:hover {
-  display: none;
-}
 
 
 #recentArticles:hover + #jumpMenu {
@@ -150,9 +149,10 @@ button:hover {
 }
 
 
-#jumpMenu:hover + #recentArticles {
-  display: none;
+#recentArticles:hover + #jumpMenu, #jumpMenu:hover,#recentArticles:focus + #jumpMenu, #jumpMenu:focus-within {
+  display: block;
 }
+
 
 
 #jumpMenu a {
