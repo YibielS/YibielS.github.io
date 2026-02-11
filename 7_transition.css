@@ -149,6 +149,22 @@ button:hover {
 }
 
 
+#jumpMenu a {
+  display: block;
+  padding: 6px 10px;
+  background-color: transparent;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+
+#jumpMenu a:hover {
+  background-color: black;       /* highlight color */
+  color: white;                 /* text becomes white */
+}
+
+
+
+
 
 
 
