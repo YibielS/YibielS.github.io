@@ -12,10 +12,12 @@ article a[href*="google.com"]::after {
 }
 
 
-article p:first-of-type {
-    color: #777;
+article p:first-of-type, h2:first-of-type: {
+    color: #D3D3D3;
     transition: color 2s;
 }
+
+
 
 article {
   transition: transform 2s;
@@ -25,7 +27,7 @@ article:hover{
 }
 
 
-article:hover p:first-of-type {
+article:hover p:first-of-type, h2:first-of-type: {
     color: black;
 }
 
