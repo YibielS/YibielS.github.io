@@ -8,8 +8,8 @@ article p:first-of-type::first-letter {
 article a[href*="www.google.com"]::after {
   content: "";
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 24px;
+  height: 24px;
   margin-left:3px;
   background-image: url("arrow.png");
   background-position: center;
