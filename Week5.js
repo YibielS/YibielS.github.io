@@ -1,11 +1,11 @@
 function tickUp() {
   const counter = document.getElementById("counter");
-  counter.textContent = counter.textContent +1;
+  counter.textContent = Number(counter.textContent +1);
 }
 
 function tickDown() {
   const counter = document.getElementById("counter");
-  counter.textContent = counter.textContent+1;
+  counter.textContent = Number(counter.textContent) - 1;
 }
 
 function runForLoop() {
