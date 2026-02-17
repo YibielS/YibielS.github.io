@@ -21,7 +21,7 @@ function showOddNumbers() {
   const counter = document.getElementById("counter").textContent;
   let result = "";
   for (let i = 1; i <= counter; i++){
-    if ((i % 2) != 1){
+    if ((i % 2) == 1){
     result += i + " ";
     }
   }
