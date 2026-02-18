@@ -22,7 +22,7 @@ function filterArticles() {
   const showOpinion = document.getElementById("opinionCheckbox").checked; 
   const showRecipe = document.getElementById("recipeCheckbox").checked;
   const showUpdate = document.getElementById("updateCheckbox").checked;
-  const articles = document.getElementsByClassName("article");
+  const articles = document.querySelectorAll("#articleList article");
   for (let i = 0; i < articles.length; i++) {
     const a = articles[i]; 
     
