@@ -33,6 +33,7 @@ form#newContent{
 form#filterContent{
     display: block;
     margin: auto;
+    display: none;
 }
 
 .formRow
@@ -213,4 +214,5 @@ nav button:active{
     header{
         width: 100%;
     }
+
 }
