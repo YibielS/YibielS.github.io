@@ -56,6 +56,7 @@ function addNewArticle() {
   if (document.getElementById("lifeRadio").checked){
     type = "update";
   }
+  const markerText = type;
   const article = document.createElement("article");
   article.className = type;
   
