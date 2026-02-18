@@ -17,3 +17,27 @@ function showFilter() {
     filter.style.display = "block";
   }
 }
+
+function filterArticles() { 
+  const showOpinion = document.getElementById("opinionCheckbox").checked; 
+  const showRecipe = document.getElementById("recipeCheckbox").checked;
+  const showUpdate = document.getElementById("updateCheckbox").checked;
+  const articles = document.getElementsByClassName("article");
+  for (let i = 0; i < articles.length; i++) {
+    const a = articles[i]; 
+    
+    if (a.classList.contains("opinion") && !showOpinion) {
+      a.style.display = "none";
+    }
+      
+    else if (a.classList.contains("recipe") && !showRecipe) {
+      a.style.display = "none";
+    }
+    else if (a.classList.contains("update") && !showUpdate) {
+      a.style.display = "none";
+    }
+    else {
+      a.style.display = "block"; 3
+    }
+  }
+}
