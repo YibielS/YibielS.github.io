@@ -57,8 +57,10 @@ function addNewArticle() {
     type = "update";
   }
   const article = document.createElement("article");
-  article.className = "article " + type;
+  article.className = type;
   
-  article.innerHTML = "<div class = 'marker'></div>" + "<div class = 'date'></div>" + "<h3>" + title + "</h3>" +"<p>" + text + "</p>";
+  
+  article.innerHTML = "<span class='marker'>" + markerText + "</span>" + "<h2>" + title + "</h2>" + "<p>" + text + "</p>";
   document.getElementById("articleList").appendChild(article); 
+  filterArticles();
 }
