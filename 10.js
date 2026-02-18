@@ -41,3 +41,23 @@ function filterArticles() {
     }
   }
 }
+
+
+function addNewArticle() {
+  const title = document.getElementById("inputHeader").value;
+  const text = document.getElementById("inputArticle").value;
+  let type = "";
+  if (document.getElementById("opinionRadio").checked) {
+    type = "opinion";
+  }
+  if (document.getElementById("recipeRadio").checked) {
+    type = "recipe";
+  }
+  if (document.getElementById("lifeRadio").checked){
+    type = "update";
+  }
+  const article = document.createElement("div");
+  article.className = "article " + type;
+  article.innerHTML = "<h3>" + title + "</h3>" + "<p class='typeLabel'>" + type.toUpperCase() + "</p>" + "<p>" + text + "</p>";
+  document.getElementById("articleList").appendChild(article); 
+}
