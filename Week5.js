@@ -67,10 +67,10 @@ function changeColor(int) {
    if (int == 1) {
     p.style.color = "red";
   }
-else if (num == 2) {
+else if (int == 2) {
     p.style.color = "green";
   }
-  else if (num == 3) {
+  else if (int == 3) {
     p.style.color = "blue";
   }
 
