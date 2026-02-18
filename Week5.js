@@ -39,7 +39,7 @@ function addMultiplesToArray() {
 }
 
 function printCarObject() {
-  let car;
+  let car ={};
   car.cType = document.getElementById("carType").value;
   car.cMPG = document.getElementById("carMPG").value;
   car.cColor = document.getElementById("carColor").value;
@@ -48,13 +48,13 @@ function printCarObject() {
 
 function loadCar(int) {
   let car;
-  if (num == 1) {
+  if (int == 1) {
     car = carObject1;
   }
-else if (num == 2) {
+else if (int == 2) {
     car = carObject2;
   }
-  else if (num == 3) {
+  else if (int == 3) {
     car = carObject3;
   }
   document.getElementById("carType").value = car.cType;
@@ -64,7 +64,7 @@ else if (num == 2) {
 
 function changeColor(int) {
   const p = document.getElementById("styleParagraph");
-   if (num == 1) {
+   if (int == 1) {
     p.style.color = "red";
   }
 else if (num == 2) {
