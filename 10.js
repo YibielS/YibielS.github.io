@@ -58,6 +58,7 @@ function addNewArticle() {
   }
   const article = document.createElement("article");
   article.className = "article " + type;
-  article.innerHTML = "<h3>" + title + "</h3>" + "<p class='typeLabel'>" + type.toUpperCase() + "</p>" + "<p>" + text + "</p>";
+  
+  article.innerHTML = "<div class = 'marker'></div>" + "<div class = 'date'></div>" + "<h3>" + title + "</h3>" +"<p>" + text + "</p>";
   document.getElementById("articleList").appendChild(article); 
 }
