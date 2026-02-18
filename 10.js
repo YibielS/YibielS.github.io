@@ -37,7 +37,7 @@ function filterArticles() {
       a.style.display = "none";
     }
     else {
-      a.style.display = "block"; 3
+      a.style.display = "block";
     }
   }
 }
@@ -56,7 +56,7 @@ function addNewArticle() {
   if (document.getElementById("lifeRadio").checked){
     type = "update";
   }
-  const article = document.createElement("div");
+  const article = document.createElement("article");
   article.className = "article " + type;
   article.innerHTML = "<h3>" + title + "</h3>" + "<p class='typeLabel'>" + type.toUpperCase() + "</p>" + "<p>" + text + "</p>";
   document.getElementById("articleList").appendChild(article); 
