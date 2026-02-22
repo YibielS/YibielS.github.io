@@ -74,5 +74,5 @@ else if (int == 2) {
     p.style.color = "blue";
   }
 
-
+}
   
