@@ -29,9 +29,9 @@ button {
 }
 
 #pokemonDisplay{
+  text-align: center;
   margin-top: 20px;
-  padding: 15px;
-  border: 1px solid yellow;
+  border: 2px solid gold;
 }
 #pokemonImage{
   display: block;
@@ -39,6 +39,12 @@ button {
   height: 150px;
   object-fit: contain;
   margin: 0 auto 15px;
+}
+
+#moves {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 10px;
 }
 
 #searchBar {
