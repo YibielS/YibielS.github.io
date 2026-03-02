@@ -1,1 +1,11 @@
+body {
+  font: Arial;
+  margin: 0;
+  padding: 20px;
+  background-color: light-blue;
+}
 
+#app {
+  max-width:500px
+  margin: 0 auto;
+}
