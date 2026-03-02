@@ -1,5 +1,3 @@
-const cache = {};
-
 async function loadPokemon(){
   let input = document.getElementById("pokemonInput").value.toLowerCase();
   let key = "pokemon_"+input;
@@ -24,14 +22,15 @@ try {
   const data = await response.json();
   console.log("Fetched from API:", data);
   
-  localStorage.setItem("pokemon_"+data.name, JSON.stringify(data);
-  localStorage.setItem("pokemon_"+data.id, JSON.stringify(data);
+  localStorage.setItem("pokemon_"+data.name, JSON.stringify(data));
+  localStorage.setItem("pokemon_"+data.id, JSON.stringify(data));
   console.log("Saved to cache");
   displayPokemon(data);
 }
 
 catch (err) {
   console.log("Error fetching pokemon:", err);
+}
 }
 
 function displayPokemon(data) {
@@ -71,9 +70,9 @@ function displayPokemon(data) {
     opt4.value = moveName;
 
     move1.appendChild(opt1);
-    move1.appendChild(opt2);
-    move1.appendChild(opt3);
-    move1.appendChild(opt4);
+    move2.appendChild(opt2);
+    move3.appendChild(opt3);
+    move4.appendChild(opt4);
 
   }
 }
