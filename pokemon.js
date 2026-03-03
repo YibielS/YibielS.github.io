@@ -85,12 +85,12 @@ function addToTeam() {
   const move3 = document.getElementById("move3").value;
   const move4 = document.getElementById("move4").value;
 
-  const name = document.getElementById("pokemonInput");
+  const name = document.getElementById("pokemonInput").value;
   const image = document.getElementById("pokemonImage").src;
 
   const teamDiv = document.getElementById("team");
 
-  const div = document.CcreateElement("div");
+  const div = document.createElement("div");
   div.className = "teamed";
 
   const img = document.createElement("img");
