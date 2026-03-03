@@ -99,19 +99,19 @@ function addToTeam() {
 
   const ul = document.createElement("ul");
 
-  constant m1 = document.createElement("li");
+  const m1 = document.createElement("li");
   m1.textContent = move1;
   ul.appendChild(m1);
 
-  constant m2 = document.createElement("li");
+  const m2 = document.createElement("li");
   m2.textContent = move2;
   ul.appendChild(m2);
 
-  constant m3 = document.createElement("li");
+  const m3 = document.createElement("li");
   m3.textContent = move3;
   ul.appendChild(m3);
 
-  constant m4 = document.createElement("li");
+  const m4 = document.createElement("li");
   m4.textContent = move4;
   ul.appendChild(m4);
 
