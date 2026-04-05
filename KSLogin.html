@@ -11,8 +11,8 @@
     <h1 class="title">KnightSwap</h1>
 
     <div class="toggle-buttons">
-      <button id="loginBtn" class="active">Login</button>
-      <button id="registerBtn">Register</button>
+      <button id="loginButton" class="active">Login</button>
+      <button id="registerButton">Register</button>
     </div>
 
     
@@ -29,6 +29,28 @@
       <button type="submit" class="submit">Register</button>
     </form>
   </div>
+
+   <script>
+    const loginButton = document.getElementById("loginButton");
+    const registerButton = document.getElementById("registerButton");
+    const loginForm = document.getElementById("loginForm");
+    const registerForm = document.getElementById("registerForm");
+
+    loginButton.onclick = () => {
+      loginButton.classList.add("active");
+      registerButton.classList.remove("active");
+      loginForm.classList.add("active");
+      registerForm.classList.remove("active");
+    };
+
+    registerButton.onclick = () => {
+      registerButton.classList.add("active");
+      loginButton.classList.remove("active");
+      registerForm.classList.add("active");
+      loginForm.classList.remove("active");
+    };
+     
+  </script>
 
 </body>
 </html>
